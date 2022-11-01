@@ -42,10 +42,17 @@ main{
     cursor: pointer;
 }
 
+.nav > .menu > ul >li:hover{
+    color: #ff8a56;
+}
+
 input[type="button"]{
     cursor: pointer;
 }
 
+input[type="button"]:hover{
+    color:#ff8a56;
+}
 
 
 
@@ -253,13 +260,19 @@ input[type="button"]{
 
 .projects--projects__project{
     width: 410px;
-    
+    cursor: pointer;
     
     display: flex;
     flex-direction: column;
     row-gap: 13px;
     background-color: white;
 }
+
+.projects--projects__project:hover{
+    background-color:#ff8a56;
+}
+
+
 
 
 .projects--projects__project > h4{
@@ -544,6 +557,28 @@ input[type="button"]{
 .faq--main_part >h3{
     border-bottom: 0.5px solid lightgrey;
     width: 450px;
+    cursor: pointer;
+}
+
+.blogs--main__tables--table{
+    cursor: pointer;
+}
+
+.blogs--main__tables--table:hover {
+    color: #ff8a56;
+
+}
+.blogs--main__view >h5:hover{
+    color: #ff8a56;
+}
+.blogs--main__view >h5{
+    width: 65px;
+    cursor: pointer;
+}
+
+
+.faq--main_part >h3:hover{
+    color: #ff8a56;
 }
 
 
@@ -569,7 +604,6 @@ input[type="button"]{
     color: #4353ff;
     font-size: 30px;
 }
-
 
 
 
