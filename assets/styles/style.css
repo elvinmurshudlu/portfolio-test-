@@ -82,7 +82,7 @@ input[type="button"]{
 }
 .introduce--text > h1{
     width: 80%;
-    font-size: 80px;
+    font-size: 79px;
 
 }
 .introduce--text > h1 >span{
@@ -252,13 +252,15 @@ input[type="button"]{
 }
 
 .projects--projects__project{
-    width: 450px;
-    height: 395px;
+    width: 410px;
+    
+    
     display: flex;
     flex-direction: column;
     row-gap: 13px;
     background-color: white;
 }
+
 
 .projects--projects__project > h4{
     color: #4851ff;
